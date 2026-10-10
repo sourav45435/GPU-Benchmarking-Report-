@@ -1,0 +1,11 @@
+model_name,prompt_tokens,generated_tokens,total_time_s,tokens_per_second,peak_ram_mb,peak_vram_mb,avg_gpu_util_pct,max_gpu_util_pct,device,dtype,quantization,timestamp
+google/gemma-2-9b-it,48,256,12.84,19.94,1842.5,6120.3,87.4,98.0,cuda:0,bfloat16,4bit,2026-10-10T14:22:11
+google/gemma-2-9b-it,48,256,12.61,20.30,1851.2,6118.7,86.9,97.5,cuda:0,bfloat16,4bit,2026-10-10T14:22:28
+google/gemma-2-9b-it,48,256,12.73,20.11,1847.8,6122.1,88.1,98.2,cuda:0,bfloat16,4bit,2026-10-10T14:22:45
+google/gemma-2-9b-it,48,512,25.91,19.76,1894.3,6235.6,89.2,99.1,cuda:0,bfloat16,4bit,2026-10-10T14:23:15
+google/gemma-2-9b-it,48,512,25.48,20.09,1901.7,6229.4,88.7,98.8,cuda:0,bfloat16,4bit,2026-10-10T14:23:48
+google/gemma-2-27b-it,52,256,28.47,8.99,2410.6,11840.2,91.3,99.4,cuda:0,bfloat16,4bit,2026-10-10T14:25:10
+google/gemma-2-27b-it,52,256,27.93,9.17,2422.1,11855.8,90.8,99.0,cuda:0,bfloat16,4bit,2026-10-10T14:25:42
+google/gemma-2-27b-it,52,256,28.21,9.08,2415.9,11848.3,91.5,99.2,cuda:0,bfloat16,4bit,2026-10-10T14:26:15
+google/gemma-2-9b-it,48,256,9.12,28.07,2105.4,16890.5,94.2,99.8,cuda:0,bfloat16,none,2026-10-10T14:28:01
+google/gemma-2-9b-it,48,256,8.97,28.54,2118.7,16912.3,93.8,99.6,cuda:0,bfloat16,none,2026-10-10T14:28:22
